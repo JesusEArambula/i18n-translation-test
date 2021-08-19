@@ -40,16 +40,4 @@ function App() {
   );
 }
 
-
-// class HigherOrderComponent extends Component {
-//   render() 
-//   {
-//     const { t } = this.props;
-//     return <h1>{t('welcome.title', {framework: 'React'})}</h1>
-//   }
-// }
-// const HigherOrderComponentTranslated = withTranslation('common')(HigherOrderComponent);
-
-
-
 export default App;
